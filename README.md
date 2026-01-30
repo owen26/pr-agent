@@ -307,3 +307,5 @@ jobs:
 | `ANTHROPIC_KEY` | Secret | Your API key |
 | `ANTHROPIC_API_BASE` | Secret | `https://api.minimax.io/anthropic` (optional) |
 | `PR_AGENT_MODEL` | Variable | `anthropic/MiniMax-M2.1` (optional, has default)
+
+**Supported Minimax models:** `anthropic/MiniMax-M2.1`, `anthropic/MiniMax-M2.1-lightning`, `anthropic/MiniMax-M2`
