@@ -5,7 +5,8 @@
 name: PR-Agent
 
 on:
-# pull_request:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
 # issue_comment:
   workflow_dispatch:
     inputs:
